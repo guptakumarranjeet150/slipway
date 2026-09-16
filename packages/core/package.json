@@ -16,7 +16,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc --build",
+    "build": "node init && tsc --build",
     "clean": "rm -rf dist *.tsbuildinfo",
     "test": "vitest run --root=../.. packages/core"
   },

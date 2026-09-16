@@ -6,9 +6,9 @@
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "start": "tsx src/index.ts",
-    "build": "tsc --build",
+    "dev": "node init && tsx watch src/index.ts",
+    "start": "node init && tsx src/index.ts",
+    "build": "node init && tsc --build",
     "test": "vitest run --root=.. backend",
     "clean": "rm -rf dist *.tsbuildinfo"
   },
