@@ -16,7 +16,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "node init && tsc --build",
+    "build": "tsc --build",
     "clean": "rm -rf dist *.tsbuildinfo",
     "test": "vitest run --root=../../.. packages/adapters/mock"
   },
